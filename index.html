@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoChic - Moda Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">EcoChic</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Comprar</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>O Futuro é Sustentável</h1>
+            <p>Descubra a moda que respeita o planeta e o seu estilo.</p>
+            <a href="#produtos" class="cta-button">Ver Coleção</a>
+        </section>
+
+        <section id="produtos">
+            <h2>🛍️ Roupas para Comprar</h2>
+            <div class="produtos-grid">
+                <article class="produto">
+                    
+                    <h3>Camiseta Algodão Orgânico</h3>
+                    <p>Feita com algodão orgânico certificado.</p>
+                    <span class="preco">R$ 89,90</span>
+                    <button>Adicionar ao Carrinho</button>
+                </article>
+                <article class="produto">
+                    
+                    <h3>Vestido de Linho Reciclado</h3>
+                    <p>Design moderno e sustentável.</p>
+                    <span class="preco">R$ 199,90</span>
+                    <button>Adicionar ao Carrinho</button>
+                </article>
+                <article class="produto">
+                    
+                    <h3>Calça Jeans Ecológica</h3>
+                    <p>Menor consumo de água na produção.</p>
+                    <span class="preco">R$ 159,90</span>
+                    <button>Adicionar ao Carrinho</button>
+                </article>
+                </div>
+        </section>
+
+        <section id="contato">
+            <h2>📝 Formulário de Contato</h2>
+            <form action="#" method="POST" class="contato-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="duvida">Dúvidas</option>
+                    <option value="parceria">Parcerias</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EcoChic. Moda Sustentável e Ética.</p>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
