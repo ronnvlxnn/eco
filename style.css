@@ -1,0 +1,64 @@
+/* ... código anterior ... */
+
+/* Efeitos de Transição em Geral */
+/* Adiciona transição suave em todos os elementos interativos */
+.cta-button,
+.produto button,
+.contato-form button[type="submit"] {
+    transition: all 0.3s ease; /* Aplica transição a todas as propriedades em 0.3 segundos */
+}
+
+/* 1. Botão de Chamada para Ação (CTA) */
+.cta-button {
+    /* ... propriedades de cor e padding ... */
+    background-color: #66BB6A; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    /* Transição já definida acima */
+}
+
+.cta-button:hover {
+    background-color: #4CAF50; 
+    transform: scale(1.05); /* Leve aumento de tamanho no hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+/* 2. Botão de Compra de Produtos */
+.produto button {
+    background-color: #F8F8F4; 
+    color: #4CAF50; 
+    border: 1px solid #4CAF50;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    /* Transição já definida acima */
+}
+
+.produto button:hover {
+    background-color: #4CAF50; 
+    color: white;
+    transform: scale(1.05); /* Leve aumento de tamanho no hover */
+}
+
+/* 3. Botão de Envio do Formulário (Também merece animação) */
+.contato-form button[type="submit"] {
+    background-color: #66BB6A; 
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    /* Transição já definida acima */
+}
+
+.contato-form button[type="submit"]:hover {
+    background-color: #4CAF50;
+    transform: translateY(-2px); /* Desloca ligeiramente para cima */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ... código restante ... */
